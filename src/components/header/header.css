@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    transition: background .3s;
+}
+.header-change-color{
+    background-color: rgba(25, 196, 138, .9);
+}

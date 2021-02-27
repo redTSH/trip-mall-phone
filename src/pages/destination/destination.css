@@ -1,0 +1,18 @@
+.destination-page{
+    height: 100%;
+    padding-bottom: 48px;
+}
+.destination-header{
+    width: 100%;
+    /* background-color: red; */
+}
+.destination-header .searchbox{
+    width: 89.333333%;
+}
+.main-container{
+    position: absolute;
+    top: 148px;
+    bottom: 48px;
+    left: 0;
+    right: 0;
+}

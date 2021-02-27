@@ -1,0 +1,18 @@
+.main-container{
+    width: 100%;
+    display: flex;
+}
+.destination-main-content{
+    overflow-y: auto;
+    flex: 1;
+    background-color: #fff;
+}
+.destination-main-side{
+    width: 76px;
+    overflow-y: auto;
+    order: -1;
+    background-color: #fafafa;
+}
+.main-container .loading{
+    padding-top: 40px;
+}

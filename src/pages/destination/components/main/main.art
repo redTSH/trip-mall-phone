@@ -1,0 +1,8 @@
+<div class="main-container" id="main-container">
+    <div id="destination-main-content" class="destination-main-content">
+        {{include '../content/content.art'}}
+    </div>
+    <div id="destination-main-side" class="destination-main-side">
+        {{include '../tab/tab.art'}}
+    </div>
+</div>

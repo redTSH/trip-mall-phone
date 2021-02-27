@@ -1,0 +1,25 @@
+.main-header .loading,
+.main-intros .loading,
+.main-refund .loading{
+    text-align: center;
+    padding: 60px 0;
+}
+.main-intros,
+.main-prebook,
+.main-refund{
+    margin-top: 40px;
+}
+.main-refund{
+    margin-bottom: 40px;
+}
+.main h2{
+    font-size: 20px;
+    line-height: 20px;
+    border-left: 6px solid #bf2a2f;
+    padding-left: 14px;
+    margin-bottom: 30px;
+}
+.prebook-img{
+    width: 80.2666667%;
+    margin-left: 11.2%;
+}

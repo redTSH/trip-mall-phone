@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+</head>
+
+<body>
+    <div id="index-page" class="index-page">
+        <heaer id="index-header" class="index-header">
+            {{include './components/header/header.art'}}
+        </heaer>
+        <div id="slider-container" class="slider-container">
+            {{include '../../components/loading/loading.art'}}
+        </div>
+        <nav id="nav-container" class="nav-container">
+            {{include '../../components/loading/loading.art'}}
+        </nav>
+        <div id="product-container" class="product-container">
+            {{include '../../components/loading/loading.art'}}
+        </div>
+        <div id="tabbar-container" class="tabbar-container">
+            <% include('../../components/tabbar/tabbar.art', { active : 'index' }) %>
+        </div>
+        <div id="backtop-container" class="backtop-container">
+            {{include '../../components/backtop/backtop.art'}}
+        </div>
+    </div>
+</body>
+
+</html>

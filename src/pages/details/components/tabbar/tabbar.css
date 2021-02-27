@@ -1,0 +1,32 @@
+.tabbar{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.services-link,
+.collect-link {
+    display: inline-block;
+    width: 76px;
+    height: 34px;
+    border: 1px solid #bf2a2f;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #bf2a2f;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.book-link{
+    position: absolute;
+    right: 10px;
+    width: 120px;
+    height: 34px;
+    background-color: #bf2a2f;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 34px;
+}

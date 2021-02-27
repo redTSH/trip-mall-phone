@@ -1,0 +1,13 @@
+.details-page{
+    overflow-y: auto;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.details-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    z-index: 1000;
+}

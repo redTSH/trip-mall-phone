@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人页</title>
+</head>
+
+<body>
+    <div class="personal-page">
+        <div class="cover-container"></div>
+        <div class="personal-info">
+            {{include './components/info/info.art'}}
+        </div>
+        <div class="personal-fun">
+            {{include './components/fun/fun.art'}}
+        </div>
+        <div id="tabbar-container" class="tabbar-container">
+            <% include('../../components/tabbar/tabbar.art', { active : 'personal' }) %>
+        </div>
+    </div>
+</body>
+
+</html>

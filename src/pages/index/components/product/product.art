@@ -1,0 +1,14 @@
+<div class="product">
+    <p class="product-title">精选折扣</p>
+    <ul class="product-list">
+        {{each items}}
+        <li class="product-item">
+            <a href="./details.html?id={{$value.id}}" class="product-link">
+                <img src="{{$value.url}}" alt="product" class="product-img">
+                <p class="product-text">{{$value.title}}</p>
+                <p class="product-price">{{$value.price}}元起</p>
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</div>

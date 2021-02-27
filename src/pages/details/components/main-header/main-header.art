@@ -1,0 +1,15 @@
+<div class="picbox">
+    <img src="{{img}}" alt="product" class="main-pic">
+    <div class="textbox">
+        <div class="pic-title">{{title}}</div>
+        <div class="tag-layout">
+            {{each tags}}
+            <span class="tags">{{$value}}</span>
+            {{/each}}
+        </div>
+        <div class="sell-layout">
+            <span class="look">浏览&nbsp;{{vistor_counts}}</span>
+            <span class="sold">已售&nbsp;{{sold_counts}}份</span>
+        </div>
+    </div>
+</div>

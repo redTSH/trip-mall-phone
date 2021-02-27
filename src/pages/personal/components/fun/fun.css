@@ -1,0 +1,15 @@
+.fun-list{
+    width: 100%;
+    padding: 0 20px 48px 20px;
+}
+.fun-item{
+    height: 37px;
+}
+.fun-link{
+    display: flex;
+    justify-content: space-between;
+    color: #262626;
+    height: 100%;
+    line-height: 37px;
+    font-size: 14px;
+}

@@ -1,0 +1,12 @@
+.aside-item{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+.aside-item-active{
+    color: #bf2a2f;
+    border-left: 2px solid #bf2a2f;
+    background-color: #fff;
+}

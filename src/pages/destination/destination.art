@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目的地</title>
+</head>
+
+<body>
+    <div class="destination-page" id="destination-page">
+        <header id="destination-header" class="destination-header">
+            {{include './components/header/header.art'}}
+        </header>
+        <div class="destination-main" id="destination-main">
+            {{include './components/main/main.art'}}
+        </div>
+
+        <div id="tabbar-container" class="tabbar-container">
+            <% include('../../components/tabbar/tabbar.art', { active : 'destination' }) %>
+        </div>
+        <div id="backtop-container" class="backtop-container">
+            {{include '../../components/backtop/backtop.art'}}
+        </div>
+    </div>
+</body>
+
+</html>

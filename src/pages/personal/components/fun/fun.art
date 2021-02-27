@@ -1,0 +1,32 @@
+<ul class="fun-list">
+    <li class="fun-item">
+        <a href="javascript:;" class="fun-link">
+            我的行程计划
+            <i class="iconfont icon-more"></i>
+        </a>
+    </li>
+    <li class="fun-item">
+        <a href="javascript:;" class="fun-link">
+            我的收藏
+            <i class="iconfont icon-more"></i>
+        </a>
+    </li>
+    <li class="fun-item">
+        <a href="javascript:;" class="fun-link">
+            售后与客服
+            <i class="iconfont icon-more"></i>
+        </a>
+    </li>
+    <li class="fun-item">
+        <a href="javascript:;" class="fun-link">
+            我的优惠券
+            <i class="iconfont icon-more"></i>
+        </a>
+    </li>
+    <li class="fun-item">
+        <a href="javascript:;" class="fun-link">
+            常用旅客管理
+            <i class="iconfont icon-more"></i>
+        </a>
+    </li>
+</ul>

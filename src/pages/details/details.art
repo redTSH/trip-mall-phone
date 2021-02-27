@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目的地</title>
+</head>
+
+<body>
+    <div class="details-page" id="details-page">
+        <div class="details-header">
+            {{include './components/header/header.art'}}
+        </div>
+        <div class="details-main">
+            {{include './components/main/main.art'}}
+        </div>
+        <div class="tabbar-container">
+            {{include './components/tabbar/tabbar.art'}}
+        </div>
+        <div id="backtop-container" class="backtop-container">
+            {{include '../../components/backtop/backtop.art'}}
+        </div>
+    </div>
+</body>
+
+</html>

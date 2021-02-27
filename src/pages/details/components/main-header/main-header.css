@@ -1,0 +1,36 @@
+.main-pic{
+    width: 100%;
+}
+.picbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textbox{
+    width: 89.333333%;
+    border-bottom: 1px solid #dadada;
+    padding-top: 16px;
+    padding-bottom: 11px;
+}
+.pic-title{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 8px;
+}
+.tag-layout{
+    margin-bottom: 12px;
+}
+.tags{
+    font-size: 14px;
+    color: #5278a0;
+    border: 1px solid #5278a0;
+    padding: 2px 12px;
+}
+.sell-layout{
+    display: flex;
+    justify-content: space-between;
+    height: 17px;
+    font-size: 12px;
+    line-height: 17px;
+}

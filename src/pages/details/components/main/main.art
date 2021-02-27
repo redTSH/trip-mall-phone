@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="main-header" id="main-header">
+        {{include '../../../../components/loading/loading.art'}}
+    </div>
+    <div class="main-intros">
+        <h2>产品简介</h2>
+        <div class="intros" id="main-intros">
+            {{include '../../../../components/loading/loading.art'}}
+        </div>
+    </div>
+    <div class="main-prebook">
+        <h2>预定流程</h2>
+        <img src="./img_prebook.png" alt="prebook" class="prebook-img">
+    </div>
+    <div class="main-refund">
+        <h2>退款流程</h2>
+        <div class="refund" id="main-refund">
+            {{include '../../../../components/loading/loading.art'}}
+        </div>
+    </div>
+</div>

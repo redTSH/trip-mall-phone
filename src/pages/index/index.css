@@ -1,0 +1,28 @@
+.index-page{
+    overflow-y: auto;
+    height: 100%;
+    /* background-color: royalblue; */
+    padding-bottom: 48px;
+}
+.index-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    z-index: 1000;
+    /* background-color: red; */
+}
+.slider-container,
+.nav-container,
+.product-container{
+    background-color: #fff;
+}
+.slider-container .loading,
+.nav-container .loading,
+.product-container .loading{
+    padding:60px 0;
+}
+.index-header .searchbox{
+    width: 89.333333%;
+}

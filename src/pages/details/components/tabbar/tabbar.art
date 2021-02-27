@@ -1,0 +1,11 @@
+<div class="tabbar">
+    <a href="javascript:;" class="services-link">
+        <i class="iconfont icon-services"></i>
+        <span>咨询</span>
+    </a>
+    <a href="javascript:;" class="collect-link">
+        <i class="iconfont icon-heart"></i>
+        <span>收藏</span>
+    </a>
+    <a href="javascript:;" class="book-link">立即预定</a>
+</div>
